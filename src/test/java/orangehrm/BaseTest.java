@@ -16,6 +16,7 @@ public class BaseTest {
     @Before
     public void setUp()
     {
+        //initiating webdriver object and open url
         driver=new FirefoxDriver();
         driver.get("http://www.google.com/");
     }
